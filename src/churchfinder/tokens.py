@@ -1,28 +1,28 @@
 EVENT_DICT = {
-    # Messen ---------------------------------------
-    "Heilige Messe":"Heilige Messe",
+    # Heilige Messe -----------------------------------
+    "Abendmesse": "Heilige Messe",
+    "Dankgottesdienst": "Heilige Messe",
+    "Eucharistie": "Heilige Messe",
     "Eucharistiefeier":"Heilige Messe",
     "EUF": "Heilige Messe",
-    "MF": "Heilige Messe",
-    "VAM": "Heilige Messe",
-    "Hochamt": "Heilige Messe",
-    "HOCHAMT": "Heilige Messe",
-    "Hl. Amt": "Heilige Messe",
-    "Dankgottesdienst": "Heilige Messe",
-    "Vorabendmesse": "Heilige Messe",
-    "Messfeier": "Heilige Messe",
-    "Hl. Messe": "Heilige Messe",
-    "Eucharistie": "Heilige Messe",
-    "Pilgermesse": "Heilige Messe",
-    "Frühmesse": "Heilige Messe",
-    "Abendmesse": "Heilige Messe",
-    "Frauenmesse": "Heilige Messe",
-    "Frauen- und Müttermesse":  "Heilige Messe",
     "Familienmesse":"Heilige Messe",
     "Familiengottesdienst": "Heilige Messe",
     "Festliches Hochamt": "Heilige Messe",
     "Festgottesdienst": "Heilige Messe",
-    # Ostern ----------------------------------------
+    "Frauenmesse": "Heilige Messe",
+    "Frauen- und Müttermesse":  "Heilige Messe",
+    "Frühmesse": "Heilige Messe",
+    "Hl. Amt": "Heilige Messe",
+    "Hl. Messe": "Heilige Messe",
+    "Heilige Messe":"Heilige Messe",
+    "Hochamt": "Heilige Messe",
+    "HOCHAMT": "Heilige Messe",
+    "Messfeier": "Heilige Messe",
+    "MF": "Heilige Messe",
+    "Pilgermesse": "Heilige Messe",
+    "VAM": "Heilige Messe",
+    "Vorabendmesse": "Heilige Messe",
+    # Heilige Messe zu Ostern ------------------------
     "Osternachtfeier": "Heilige Messe",  
     "Osternachtsfeier": "Heilige Messe",
     "Osternachtliturgie": "Heilige Messe",
@@ -32,32 +32,41 @@ EVENT_DICT = {
     "Ostermesse": "Heilige Messe",
     "Feier der Osternacht": "Heilige Messe",
     "Osternacht": "Heilige Messe",
-    # Weiteres ----------------------------------------
+    # Andacht ----------------------------------------
     "Andacht": "Andacht",
+    # Beichte ----------------------------------------
     "Beichte": "Beichte",
     "Beichtgelegenheit": "Beichte",
+    # Beerdigung -------------------------------------
     "Trauerfeier": "Beerdigung",
     "Beerdigung": "Beerdigung",
     "Requiem": "Beerdigung",
+    # Bussgottesdienst -------------------------------
     "Bussgottesdienst": "Bussgottesdienst",
+    # Erstkommunion ----------------------------------
     "Erstkommunion": "Erstkommunion",
+    # Firmnung ---------------------------------------
     "Firmung": "Firmung",
     "Hochzeit": "Hochzeit",
     "Trauung": "Hochzeit",
-    "Rosenkranzgebet": "Rosenkranz",
-    "Taufsonntag": "Taufe",
-    "Taufe": "Taufe",
-    "Tauffeier": "Taufe",
-    "Rosenkranz": "Rosenkranz",
-    "Wortgottesfeier": "Wortgottesdienst",
-    "Wort-Gottes- und Kommunion-Feier": "Wortgottesdienst",
-    "Wortgottesdienst": "Wortgottesdienst",
-    "Wort-Gottes-Feier": "Wortgottesdienst",
+    # Kindergottesdienst -----------------------------
     "Kindergottesdienst": "Kindergottesdienst",
     "Kinderkirche": "Kindergottesdienst",
     "Chile für Chind": "Kindergottesdienst",
     "KLEINKINDER-FEIER": "Kindergottesdienst",
-    # Messen generisch -----------------------------------
+    # Rosenkranz ------------------------------------- 
+    "Rosenkranzgebet": "Rosenkranz",
+    "Rosenkranz": "Rosenkranz",
+    # Taufe ------------------------------------------
+    "Taufsonntag": "Taufe",
+    "Taufe": "Taufe",
+    "Tauffeier": "Taufe",
+    # Wortgottesdienst ------------------------------------------
+    "Wortgottesfeier": "Wortgottesdienst",
+    "Wort-Gottes- und Kommunion-Feier": "Wortgottesdienst",
+    "Wortgottesdienst": "Wortgottesdienst",
+    "Wort-Gottes-Feier": "Wortgottesdienst",
+    # Messen generisch --------------------------------
     "Fiire mit de Chliine": "Kindergottesdienst",
     "Magyar Mise": "Heilige Messe",
     "Santa Messa": "Heilige Messe",
