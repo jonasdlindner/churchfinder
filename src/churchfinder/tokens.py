@@ -86,6 +86,7 @@ LANGUAGES = {
     "Englische": "Englisch",
     "in lingua italiana": "Italienisch",
     "en español": "Spanisch",
+    "Kroaten": "Kroatisch",
     "in kroatischer Sprache": "Kroatisch",
     "der polnischen Gemeinde": "Polnisch",
     "in polnischer Sprache": "Polnisch",
