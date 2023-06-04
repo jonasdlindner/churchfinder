@@ -78,7 +78,7 @@ EVENT_DICT = {
 
 LANGUAGES = {
     "(ungarisch)": "Ungarisch",
-    "Ung": "Ungarisch"
+    "Ung": "Ungarisch",
     "Ungarischer Gottesdienst": "Ungarisch",
     "Magyar": "Ungarisch",
     "portugiesischer Sprache": "Portugiesisch",
