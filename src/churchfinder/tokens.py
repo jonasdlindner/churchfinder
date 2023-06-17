@@ -2,8 +2,8 @@ EVENT_DICT = {
     # Heilige Messe -----------------------------------
     "Abendmesse": "Heilige Messe",
     "Dankgottesdienst": "Heilige Messe",
-    "Eucharistie": "Heilige Messe",
     "Eucharistiefeier":"Heilige Messe",
+    "Eucharistie": "Heilige Messe",
     "EUF": "Heilige Messe",
     "Familienmesse":"Heilige Messe",
     "Familiengottesdienst": "Heilige Messe",
@@ -23,7 +23,7 @@ EVENT_DICT = {
     "VAM": "Heilige Messe",
     "Vorabendmesse": "Heilige Messe",
     # Heilige Messe zu Ostern ------------------------
-    "Osternachtfeier": "Heilige Messe",  
+    "Osternachtfeier": "Heilige Messe",
     "Osternachtsfeier": "Heilige Messe",
     "Osternachtliturgie": "Heilige Messe",
     "Osternachtsliturgie": "Heilige Messe",
@@ -54,7 +54,7 @@ EVENT_DICT = {
     "Kinderkirche": "Kindergottesdienst",
     "Chile für Chind": "Kindergottesdienst",
     "KLEINKINDER-FEIER": "Kindergottesdienst",
-    # Rosenkranz ------------------------------------- 
+    # Rosenkranz -------------------------------------
     "Rosenkranzgebet": "Rosenkranz",
     "Rosenkranz": "Rosenkranz",
     # Taufe ------------------------------------------
@@ -72,13 +72,12 @@ EVENT_DICT = {
     "Santa Messa": "Heilige Messe",
     "Misa": "Heilige Messe",
     "Messe": "Heilige Messe",
-    "Gottesdienst": "Heilige Messe", # Must be places last 
+    "Gottesdienst": "Heilige Messe", # Must be places last
     # to avoid Problems with Wortgottesdienst
 }
 
 LANGUAGES = {
     "(ungarisch)": "Ungarisch",
-    "Ung": "Ungarisch",
     "Ungarischer Gottesdienst": "Ungarisch",
     "Magyar": "Ungarisch",
     "portugiesischer Sprache": "Portugiesisch",
