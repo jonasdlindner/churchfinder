@@ -35,6 +35,7 @@ EVENT_DICT = {
     # Andacht ----------------------------------------
     "Andacht": "Andacht",
     # Beichte ----------------------------------------
+    "Beichtgelegenheiten": "Beichte",
     "Beichte": "Beichte",
     "Beichtgelegenheit": "Beichte",
     # Beerdigung -------------------------------------
@@ -94,4 +95,15 @@ LANGUAGES = {
     "Slowenischer": "Slowenisch",
     "Slowenische": "Slowenisch",
     "Indische": "Tamilisch",
+    "Libanesische": "Libanesisch",
 }
+
+CANCELLED = [
+    "entfällt",
+    "entfallen",
+    "keine",
+    "kein",
+    "Keine",
+    "kein",
+    "e n t f ä l l t"
+]

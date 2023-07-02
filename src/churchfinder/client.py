@@ -1,4 +1,4 @@
-import requests 
+import requests
 DEBUG = False
 
 
@@ -36,10 +36,10 @@ class ChurchfinderClient:
 
     def getEventTypes(self):
         return self._get("eventtypes/")
-    
+
     def getLocations(self):
         return self._get("locations/")
-    
+
     def getLanguages(self):
         return self._get("languages/")
 
@@ -71,7 +71,7 @@ class ChurchfinderClient:
         if eventTypeId == "":
             raise ChurchfinderClientError("Need to  set event type")
         return eventTypeId
-        
+
     def _getLocationId(self, location):
         if self.locations is None:
             self.locations = self.getLocations()
@@ -85,37 +85,39 @@ class ChurchfinderClient:
         return locationId
 
     def postEvents(
-        self, 
-        date, 
+        self,
+        date,
         time,
         location,
         eventType="Heilige Messe",
-        language="Deutsch", 
+        language="Deutsch",
         free_text="",
         location_sub_category="",
         memorial="",
         celebrant="",
         attendees=None,
+        cancelled=False,
     ):
 
-        langaugeId = self._getLanguageId(language)
+        languageId = self._getLanguageId(language)
         print("get Languages")
         eventTypeId = self._getEvenTypeId(eventType)
         print("get eventTypeId")
         locationId = self._getLocationId(location)
         print("get locationId")
         data = {
-            'free_text': free_text, 
-            'date': date, 
+            'free_text': free_text,
+            'date': date,
             'time': time,
-            'location_sub_category': location_sub_category, 
-            'memorial': memorial, 
-            'celebrant': celebrant, 
-            'collection_id': None, 
-            'attendees': attendees, 
-            'event_type': eventTypeId, 
-            'location': locationId, 
-            'language': langaugeId
+            'location_sub_category': location_sub_category,
+            'memorial': memorial,
+            'celebrant': celebrant,
+            'collection_id': None,
+            'attendees': attendees,
+            'event_type': eventTypeId,
+            'location': locationId,
+            'language': languageId,
+            "cancelled": cancelled,
         }
         self._post("events", data)
 
@@ -129,12 +131,12 @@ if __name__ == "__main__":
                     day_str = "0" + str(day)
                 else:
                     day_str = str(day)
-                
+
                 if hour < 10:
                     hour_str = "0" + str(hour)
                 else:
                     hour_str = str(hour)
-                
+
                 if minute < 10:
                     minute_str = "0" + str(minute)
                 else:
