@@ -48,6 +48,7 @@ EVENT_DICT = {
     "Erstkommunion": "Erstkommunion",
     # Firmnung ---------------------------------------
     "Firmung": "Firmung",
+    "Brautamt": "Hochzeit",
     "Hochzeit": "Hochzeit",
     "Trauung": "Hochzeit",
     # Kindergottesdienst -----------------------------
@@ -89,6 +90,7 @@ LANGUAGES = {
     "en español": "Spanisch",
     "Kroaten": "Kroatisch",
     "in kroatischer Sprache": "Kroatisch",
+    "der kroatischen Gemeinde": "Kroatisch",
     "der polnischen Gemeinde": "Polnisch",
     "in polnischer Sprache": "Polnisch",
     "Eritreer": "Altäthiopisch",
