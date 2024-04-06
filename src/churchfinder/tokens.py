@@ -13,6 +13,7 @@ EVENT_DICT = {
     "Frauenmesse": "Heilige Messe",
     "Frauen- und Müttermesse":  "Heilige Messe",
     "Frühmesse": "Heilige Messe",
+    "Gemeindegottesdienst": "Heilige Messe",
     "Hl. Amt": "Heilige Messe",
     "Hl. Messe": "Heilige Messe",
     "Heilige Messe":"Heilige Messe",
@@ -25,6 +26,10 @@ EVENT_DICT = {
     "VAM": "Heilige Messe",
     "Vorabendmesse": "Heilige Messe",
     # Heilige Messe zu Ostern ------------------------
+    "Osternacht - Wort-Gottes-Feier": "Wortgottesfeier",
+    "Osternacht - Messfeier": "Heilige Messe",
+    "FEIER DER OSTERNACHT": "Heilige Messe",
+    "Feier der Heiligen Osternacht": "Heilige Messe"
     "Osternachtfeier": "Heilige Messe",
     "Osternachtsfeier": "Heilige Messe",
     "Osternachtliturgie": "Heilige Messe",
@@ -32,6 +37,7 @@ EVENT_DICT = {
     "Osternachtmesse": "Heilige Messe",
     "Auferstehungsfeier": "Heilige Messe",
     "Ostermesse": "Heilige Messe",
+    "Osterhochamt": "Heilige Messe",
     "Feier der Osternacht": "Heilige Messe",
     "Osternacht": "Heilige Messe",
     # Andacht ----------------------------------------
@@ -61,6 +67,7 @@ EVENT_DICT = {
     # Rosenkranz -------------------------------------
     "Rosenkranzgebet": "Rosenkranz",
     "Rosenkranz": "Rosenkranz",
+    "Kurz-Rosenkranz": "Rosenkranz",
     # Taufe ------------------------------------------
     "Taufsonntag": "Taufe",
     "Taufe": "Taufe",
