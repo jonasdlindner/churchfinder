@@ -29,7 +29,7 @@ EVENT_DICT = {
     "Osternacht - Wort-Gottes-Feier": "Wortgottesfeier",
     "Osternacht - Messfeier": "Heilige Messe",
     "FEIER DER OSTERNACHT": "Heilige Messe",
-    "Feier der Heiligen Osternacht": "Heilige Messe"
+    "Feier der Heiligen Osternacht": "Heilige Messe",
     "Osternachtfeier": "Heilige Messe",
     "Osternachtsfeier": "Heilige Messe",
     "Osternachtliturgie": "Heilige Messe",
